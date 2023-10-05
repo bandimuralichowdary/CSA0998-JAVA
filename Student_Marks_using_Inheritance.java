@@ -82,6 +82,18 @@ class StudentMarks{
         Y=s.nextInt();
         System.out.print("Enter the marks in Physics: ");
         Z=s.nextInt();
+        if(W<0||W>100||X<0||X>100||Y<0||Y>100||Z<0||Z>100){
+            System.out.print("Enter a valid mark(i.e between 0 and 100)!!\n");
+            System.out.print("Re-Enter Again Marks Properly.\n");
+            System.out.print("Enter the marks in Python: ");
+            W=s.nextInt();
+            System.out.print("Enter the marks in C-Programming: ");
+            X=s.nextInt();
+            System.out.print("Enter the marks in Mathematics: ");
+            Y=s.nextInt();
+            System.out.print("Enter the marks in Physics: ");
+            Z=s.nextInt();
+        }
         Grade obj=new Grade();
         obj.getmarks(W, X, Y, Z);
         obj.caltotal();
