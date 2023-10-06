@@ -1,3 +1,4 @@
+//Assignment-4 Q-1
 /*Write a java program to read a character until a * is encountered. 
 Also count the number of uppercase, lowercase, and numbers entered by the users.
 Sample Input:
