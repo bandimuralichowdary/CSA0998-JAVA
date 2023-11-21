@@ -9,7 +9,7 @@ class PrimeNumber{
         System.out.print("Enter a number:");
         n=s.nextInt();
         m=n/2;
-        if(n==0 || n==1)
+        if(n==0 || n==1|| n==4)
         {
             System.out.printf("%d is Not a Prime Number",n);
         }
