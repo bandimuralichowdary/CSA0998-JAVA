@@ -1,7 +1,7 @@
 //MEDIUM-4
 //Palindrome String and Number
 import java.util.*;
-class Palindrome{
+class Palindrome_04{
 public static void main(String[] args){
 int choice;
 String value;
@@ -15,11 +15,11 @@ case 1:
 int num=Integer.parseInt(value);
 int num1=num, rev=0, rem;
 while(num>0){
-rem=rem%10;
+rem=num%10;
 rev=rev*10+rem;
-n=n/10;
+num=num/10;
 }
-if(num1==value){
+if(num1==rev){
 System.out.println("It is a palindrome");
 }
 else
